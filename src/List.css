@@ -1,0 +1,66 @@
+.List{
+   
+   text-align: center;
+   
+   border: 1px solid #fff;
+   box-sizing: border-box;
+   border-radius: 30px;
+   background-color: white;
+   width: 100%;
+   margin: 20px;
+ }
+ 
+ .List li{
+   display: inline-block;
+   padding: 25px;
+   font-size: 18px;
+ }
+
+.More:hover, .More:focus{
+   cursor: pointer;
+    animation: pulse 2s;
+    box-shadow: 0 0 0 0 #EEE8AA;
+    transform: scale(1);
+}
+.More{
+   background-color: orange;
+   color: white;
+   box-sizing: border-box;
+   border-radius: 20px;
+   padding: 10px;
+   justify-content: center;
+   float: right;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.40, #FFA500), color-stop(1.0, #EEE8AA));
+}
+
+details > summary {
+   list-style: none;
+ }
+
+ .Tabl{
+   text-align: center;
+   border: 1px solid #fff;
+   box-sizing: border-box;
+   border-radius: 20px;
+   background-color: white;
+   width: 100%;
+   margin: 20px;
+   float: right;
+   box-shadow: 3px 2px 8px 0px rgba(146, 146, 138, 0.65),-13px 15px 21px 14px rgba(164, 164, 164, 0.98);
+
+ }
+ 
+ 
+
+ @keyframes pulse {
+  0% { 
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #EEE8AA; }
+  70% { 
+      transform: scale(1);
+      box-shadow: 0 0 0 10px #EEE8AA; }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #EEE8AA;
+  }
+}
